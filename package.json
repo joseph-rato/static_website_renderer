@@ -1,0 +1,15 @@
+{
+  "name": "@pagoda/static-website-renderer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "JSON-schema-driven static website renderer for Pagoda website builder",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "typecheck": "pnpm -r run typecheck",
+    "clean": "pnpm -r run clean"
+  }
+}

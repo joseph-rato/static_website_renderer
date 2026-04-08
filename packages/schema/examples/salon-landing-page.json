@@ -1,0 +1,319 @@
+{
+  "schemaVersion": "1.0.0",
+  "metadata": {
+    "title": "Welcome to Crown of Beauty - Your Premier Beauty Destination",
+    "description": "Experience luxury beauty services in a relaxing atmosphere. Professional hair styling, coloring, facial treatments, and nail care.",
+    "url": "https://crownofbeauty.com",
+    "favicon": "https://example.com/logos/crown_of_beauty.png",
+    "fonts": ["Abhaya Libre", "Inter"],
+    "analyticsId": "UA-123456789-1",
+    "og": {
+      "title": "Welcome to Crown of Beauty",
+      "description": "Your Premier Beauty Destination",
+      "image": "https://example.com/logos/crown_of_beauty.png",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Welcome to Crown of Beauty",
+      "description": "Your Premier Beauty Destination",
+      "image": "https://example.com/logos/crown_of_beauty.png"
+    }
+  },
+  "theme": {
+    "colors": {
+      "primary": "#FF6B6B",
+      "secondary": "#4ECDC4"
+    },
+    "fonts": {
+      "primary": "Abhaya Libre",
+      "secondary": "Inter"
+    }
+  },
+  "body": [
+    {
+      "type": "announcement-modal",
+      "id": "announcement-modal",
+      "props": {
+        "title": "✨ New Braiding Classes at Crown of Beauty! ✨",
+        "body": "<p>We're <strong>excited</strong> to announce that we're now offering braiding classes for all skill levels! Whether you're looking to master the basics or elevate your styling game, we've got a class for you:</p>",
+        "items": ["Braids & Twist", "Designs", "Cornrows", "Extension Braids"],
+        "callToAction": "Interested? Call us to inquire about pricing and book your lessons today!",
+        "backgroundColor": "#FF6B6B",
+        "textColor": "#FFFFFF"
+      }
+    },
+    {
+      "type": "navigation",
+      "id": "nav",
+      "props": {
+        "logoUrl": "https://example.com/logos/crown_of_beauty.png",
+        "logoAlt": "Crown of Beauty Salon Logo",
+        "bookingUrl": "https://book.getpagoda.com/book?salonId=e9774c5d-8e08-45bd-8170-e2b645a465a6",
+        "bookButtonText": "Book Now whattt",
+        "navLinks": [
+          { "label": "Home", "anchor": "#home" },
+          { "label": "Services", "anchor": "#services" },
+          { "label": "About", "anchor": "#about" },
+          { "label": "Testimonials", "anchor": "#testimonials" }
+        ]
+      },
+      "children": [
+        {
+          "type": "banner",
+          "id": "banner",
+          "props": {
+            "title": "Grand Opening",
+            "content": "<p>🎉 Grand Opening Special! 20% off all services this month.</p>",
+            "textColor": "#FFFFFF",
+            "backgroundColor": "#FF6B6B"
+          }
+        }
+      ]
+    },
+    {
+      "type": "hero",
+      "id": "home",
+      "props": {
+        "header": "Welcome to Crown of Beauty",
+        "subhead": "Your Premier Beauty Destination",
+        "imageUrl": "https://example.com/hero-image.jpg",
+        "richText": "<p>Experience <strong>luxury</strong> beauty services in a <em>relaxing</em> atmosphere. Our professional team is dedicated to making you look and feel your best.</p><p>What sets us apart:</p><ul><li>Professional staff with years of experience</li><li>Premium products from trusted brands</li><li>Personalized service tailored to you</li></ul>",
+        "showBookButton": true,
+        "bookButtonText": "Book Your Appointment",
+        "bookingUrl": "https://book.getpagoda.com/book?salonId=e9774c5d-8e08-45bd-8170-e2b645a465a6"
+      }
+    },
+    {
+      "type": "services-menu",
+      "id": "services",
+      "props": {
+        "title": "Our Services",
+        "subtitle": "Professional Beauty Services",
+        "content": "<p>Comprehensive beauty services for all your needs. We offer a <strong>wide range</strong> of professional treatments tailored to you.</p>",
+        "bookingUrl": "https://book.getpagoda.com/book?salonId=e9774c5d-8e08-45bd-8170-e2b645a465a6",
+        "serviceGroups": [
+          {
+            "category": "Hair",
+            "services": [
+              {
+                "id": 1,
+                "name": "Hair Cut",
+                "description": "Professional haircut tailored to your style",
+                "price": 50.0,
+                "isVariablePrice": false,
+                "durationMins": 60
+              },
+              {
+                "id": 2,
+                "name": "Hair Color",
+                "description": "Expert hair coloring and highlights",
+                "price": 120.0,
+                "isVariablePrice": true,
+                "durationMins": 120
+              }
+            ]
+          },
+          {
+            "category": "Facial",
+            "services": [
+              {
+                "id": 3,
+                "name": "Facial Treatment",
+                "description": "Rejuvenating facial treatment",
+                "price": 80.0,
+                "isVariablePrice": false,
+                "durationMins": 90
+              }
+            ]
+          },
+          {
+            "category": "Nails",
+            "services": [
+              {
+                "id": 4,
+                "name": "Manicure",
+                "description": "Professional nail care and polish",
+                "price": 35.0,
+                "isVariablePrice": false,
+                "durationMins": 45
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "service-highlights",
+      "id": "highlights",
+      "props": {
+        "highlights": [
+          {
+            "icon": "IconHeartHandshake",
+            "title": "Hair Styling",
+            "body": "Professional hair cuts and styling"
+          },
+          {
+            "icon": "IconUser",
+            "title": "Hair Coloring",
+            "body": "Expert hair coloring and highlights"
+          },
+          {
+            "icon": "IconBarcode",
+            "title": "Facial Treatments",
+            "body": "Rejuvenating facial treatments"
+          },
+          {
+            "icon": "IconHeartHandshake",
+            "title": "Nail Care",
+            "body": "Professional manicures and pedicures"
+          }
+        ]
+      }
+    },
+    {
+      "type": "team",
+      "id": "about",
+      "props": {
+        "title": "Our Team",
+        "richText": "<p>Meet our <strong>talented</strong> professionals who are dedicated to providing you with exceptional service. Each team member brings <em>years of experience</em> and a passion for beauty.</p><p>Our team includes:</p><ul><li>Master stylists with 10+ years of experience</li><li>Certified estheticians specializing in skincare</li><li>Expert colorists trained in the latest techniques</li></ul>",
+        "members": [
+          {
+            "id": 1,
+            "firstName": "Sarah",
+            "lastName": "Johnson",
+            "title": "Master Stylist",
+            "bio": "Sarah has over 15 years of experience in hair styling and color",
+            "photoUrl": "https://example.com/staff/sarah-johnson.jpg",
+            "email": "sarah@crownofbeauty.com",
+            "specialties": ["Hair Styling", "Hair Color"]
+          },
+          {
+            "id": 2,
+            "firstName": "Michael",
+            "lastName": "Chen",
+            "title": "Senior Stylist",
+            "bio": "Michael specializes in modern cuts and color techniques",
+            "photoUrl": "https://example.com/staff/michael-chen.jpg",
+            "email": "michael@crownofbeauty.com",
+            "specialties": ["Hair Styling"]
+          },
+          {
+            "id": 3,
+            "firstName": "Emily",
+            "lastName": "Rodriguez",
+            "title": "Esthetician",
+            "bio": "Emily provides expert facial treatments and skincare",
+            "photoUrl": "https://example.com/staff/emily-rodriguez.jpg",
+            "email": "emily@crownofbeauty.com",
+            "specialties": ["Facial Treatments", "Skincare"]
+          }
+        ]
+      }
+    },
+    {
+      "type": "testimonials",
+      "id": "testimonials",
+      "props": {
+        "title": "What Our Clients Say",
+        "subtitle": "Read their experiences",
+        "richText": "<p>We value our clients' feedback and are <strong>proud</strong> of the relationships we've built. Here's what they have to say about their experience with us.</p>",
+        "testimonials": [
+          {
+            "name": "Jane Doe",
+            "content": "<p>Amazing service! The staff is professional and friendly. I've been coming here for years.</p>",
+            "pictureUrl": "https://example.com/testimonials/jane-doe.jpg",
+            "source": "Google Reviews"
+          },
+          {
+            "name": "John Smith",
+            "content": "<p>Best salon experience I've ever had! The attention to detail is incredible.</p>",
+            "pictureUrl": "https://example.com/testimonials/john-smith.jpg",
+            "source": "Yelp"
+          },
+          {
+            "name": "Maria Garcia",
+            "content": "<p>I love the atmosphere here. It's relaxing and the results are always perfect.</p>",
+            "pictureUrl": "https://example.com/testimonials/maria-garcia.jpg",
+            "source": "Facebook"
+          }
+        ]
+      }
+    },
+    {
+      "type": "gallery",
+      "id": "gallery",
+      "props": {
+        "title": "Photos",
+        "items": [
+          {
+            "imageUrl": "https://example.com/gallery/salon-interior.jpg",
+            "title": "Salon Interior",
+            "description": "Beautiful and modern salon space"
+          },
+          {
+            "imageUrl": "https://example.com/gallery/stylist-at-work.jpg",
+            "title": "Stylist at Work",
+            "description": "Professional service in action"
+          },
+          {
+            "imageUrl": "https://example.com/gallery/hair-color-process.jpg",
+            "title": "Hair Color Process",
+            "description": "Expert color application"
+          },
+          {
+            "imageUrl": "https://example.com/gallery/finished-look.jpg",
+            "title": "Finished Look",
+            "description": "Beautiful results"
+          }
+        ]
+      }
+    },
+    {
+      "type": "find-us",
+      "id": "find-us",
+      "props": {
+        "title": "Call to schedule an appointment. Walk-ins are also accepted.",
+        "showGoogleMaps": true,
+        "address": "123 Main Street, Boston, MA 02101",
+        "phone": "(555) 123-4567",
+        "email": "info@crownofbeauty.com",
+        "latitude": 42.3601,
+        "longitude": -71.0589,
+        "mapUrl": "https://maps.google.com/?q=Crown+of+Beauty+Salon",
+        "hours": {
+          "monday": "9:00 AM - 6:00 PM",
+          "tuesday": "9:00 AM - 6:00 PM",
+          "wednesday": "9:00 AM - 6:00 PM",
+          "thursday": "9:00 AM - 7:00 PM",
+          "friday": "9:00 AM - 7:00 PM",
+          "saturday": "10:00 AM - 4:00 PM",
+          "sunday": "Closed"
+        },
+        "socials": {
+          "instagram": "https://instagram.com/crownofbeauty",
+          "facebook": "https://facebook.com/crownofbeauty",
+          "twitter": "https://twitter.com/crownofbeauty",
+          "tiktok": "https://tiktok.com/@crownofbeauty"
+        }
+      }
+    },
+    {
+      "type": "footer",
+      "id": "footer",
+      "props": {
+        "companyName": "Crown of Beauty Salon",
+        "phone": "(555) 123-4567",
+        "email": "info@crownofbeauty.com",
+        "address": "123 Main Street, Boston, MA 02101",
+        "bookingUrl": "https://book.getpagoda.com/book?salonId=e9774c5d-8e08-45bd-8170-e2b645a465a6",
+        "socials": {
+          "instagram": "https://instagram.com/crownofbeauty",
+          "facebook": "https://facebook.com/crownofbeauty",
+          "twitter": "https://twitter.com/crownofbeauty",
+          "tiktok": "https://tiktok.com/@crownofbeauty"
+        }
+      }
+    }
+  ]
+}
