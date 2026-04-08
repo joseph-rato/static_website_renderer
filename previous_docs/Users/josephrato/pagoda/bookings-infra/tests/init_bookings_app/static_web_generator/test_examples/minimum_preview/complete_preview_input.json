@@ -1,0 +1,25 @@
+{
+  "color": {
+    "primary_color": "#8B0000",
+    "secondary_color": "#DAA520"
+  },
+  "font": {
+    "primary_font": "Playfair Display",
+    "secondary_font": "Lato"
+  },
+  "hero_section": {
+    "header": "Where Beauty Meets Elegance",
+    "include_book_now_button": true
+  },
+  "our_services": {
+    "header": "Our Services"
+  },
+  "find_us": {
+    "title": "Find Us",
+    "subtitle": "Visit us at our location",
+    "google_maps": true
+  },
+  "booking_link": {
+    "url": "https://book.getpagoda.com/book?salonId=crown-of-beauty-uuid-12345"
+  }
+}

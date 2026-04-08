@@ -1,0 +1,69 @@
+{
+  "template_type": "generic",
+  "company_name": "Salon Name",
+  "color": {
+    "primary_color": "#FFD6EE",
+    "secondary_color": "#0000FF"
+  },
+  "font": {
+    "primary_font": "Jacquard 10",
+    "secondary_font": "Arial"
+  },
+  "hero_section": {
+    "header": "Welcome to Our Salon",
+    "subhead": "Your beauty destination",
+    "include_book_now_button": true,
+    "book_link_copy": "Book Now",
+    "image": "https://framerusercontent.com/images/3Bf4tx1XPE69vkxqIrkFKmiZg.png",
+    "text": ""
+  },
+  "our_services": {
+    "header": "Our Services",
+    "subtitle": "",
+    "subtext": "",
+    "default": "",
+    "menu_note": ""
+  },
+  "find_us": {
+    "title": "Find Us",
+    "subtitle": "Visit us at our location",
+    "google_maps": false
+  },
+  "booking_link": {
+    "url": "https://book.getpagoda.com/book?salonId=salon-uuid-here"
+  },
+  "gallery": {
+    "title": "Our Gallery",
+    "items": [],
+    "grid_layout": "middle_expand"
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "",
+    "text": "",
+    "testimonials": []
+  },
+  "service_highlights": {
+    "highlights": []
+  },
+  "banner": {
+    "content": "",
+    "text_color": "",
+    "background_color": ""
+  },
+  "announcement_modal": {
+    "title": "",
+    "body": "",
+    "items": [],
+    "call_to_action": ""
+  },
+  "team": {
+    "title": "",
+    "text": ""
+  },
+  "socials": {
+    "twitter_url": "",
+    "facebook_url": "",
+    "instagram_url": ""
+  }
+}

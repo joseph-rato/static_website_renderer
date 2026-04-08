@@ -1,0 +1,15 @@
+{
+  "template_type": "generic",
+  "company_name": "Salon Name",
+  "color": {
+    "primary_color": "#FFD6EE",
+    "secondary_color": "#0000FF"
+  },
+  "font": {
+    "primary_font": "Jacquard 10",
+    "secondary_font": "Arial"
+  },
+  "booking_link": {
+    "url": "https://book.getpagoda.com/book?salonId=salon-uuid-here"
+  }
+}

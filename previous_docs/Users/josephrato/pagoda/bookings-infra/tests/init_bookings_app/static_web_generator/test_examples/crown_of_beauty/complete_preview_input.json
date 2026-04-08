@@ -1,0 +1,121 @@
+{
+  "company_name": "Crown of Beauty",
+  "color": {
+    "primary_color": "#8B0000",
+    "secondary_color": "#DAA520"
+  },
+  "font": {
+    "primary_font": "Playfair Display",
+    "secondary_font": "Lato"
+  },
+  "hero_section": {
+    "header": "Where Beauty Meets Elegance",
+    "subhead": "From flawless skincare to stunning hairstyles, Crown of Beauty offers personalized services designed to make you shine.",
+    "include_book_now_button": false,
+    "image": "https://framerusercontent.com/images/3Bf4tx1XPE69vkxqIrkFKmiZg.png",
+    "text": null
+  },
+  "banner": {
+    "content": "<p>Wednesday 10% off special for Nails & Hair</p>",
+    "background_color": "#8B0000",
+    "text_color": "#DAA520"
+  },
+  "our_services": {
+    "header": "Our Services",
+    "subtitle": null,
+    "subtext": "<p>We offer a full range of beauty services to enhance your natural glow, delivered by licensed professionals. Whether you need a facial, haircut, nail care, or waxing, our expert team ensures every service is tailored to you, leaving you feeling your best.</p><p>Additionally, we offer a secluded treatment room and dedicated individual rooms for customers requiring more privacy. If interested, please inquire during your appointment.</p>",
+    "default": null,
+    "menu_note": "*Note: All prices start at the stated price, but can increase based on complexity of service*"
+  },
+  "service_highlights": {
+    "highlights": [
+      {
+        "icon": "IconHeartHandshake",
+        "title": "Professional Care",
+        "body": "Receive top-tier hair, nail, and skincare services with precision and care."
+      },
+      {
+        "icon": "IconUser",
+        "title": "Personalized Treatments",
+        "body": "Experience tailored treatments that highlight your beauty and leave you feeling rejuvenated."
+      },
+      {
+        "icon": "IconBarcode",
+        "title": "Curated Products",
+        "body": "Explore salon-quality products to maintain and perfect your look between appointments."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "Hear what our happy customers have to say!",
+    "text": null,
+    "testimonials": [
+      {
+        "name": "Liz",
+        "content": "<p>Lidia did great with the hair coloring. She is super friendly and goes above and beyond to make sure her client is happy and comfortable!</p>",
+        "picture": null,
+        "source": "Google, Local Guide"
+      },
+      {
+        "name": "Ivanna",
+        "content": "<p>The best service ever!! Alexandra did my nails great with care. I showed her the picture that I wanted and she did it exactly how I wanted. She is also the sweetest person ever, and so is everyone working there.</p>",
+        "picture": null,
+        "source": "Google"
+      },
+      {
+        "name": "Jeannette",
+        "content": "<p>The service is great and the product they used on my hair was amazing because my hair looks more healthy now</p>",
+        "picture": null,
+        "source": "Google"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Photos",
+    "items": [
+      {
+        "image_url": "https://framerusercontent.com/images/9qwHM0ART1PAawaRCsjwiCetcA.png",
+        "title": "Gallery Image 1"
+      },
+      {
+        "image_url": "https://framerusercontent.com/images/EmLkVUNpl3SkFzQewlPlmeQHZI.png",
+        "title": "Gallery Image 2"
+      },
+      {
+        "image_url": "https://framerusercontent.com/images/OLOFDN3G4xs3iC2scF2gfF7OQ4.png",
+        "title": "Gallery Image 3"
+      },
+      {
+        "image_url": "https://framerusercontent.com/images/RlaU6Fv0NZ9YGZN17OaMiNyODo.png",
+        "title": "Gallery Image 4"
+      },
+      {
+        "image_url": "https://framerusercontent.com/images/gCaFDpyndHmQzAbEqLSItOjZs.png",
+        "title": "Gallery Image 5"
+      },
+      {
+        "image_url": "https://framerusercontent.com/images/o90GzBlB1SHsG7ATA9cGpvQ3YyM.png",
+        "title": "Gallery Image 6"
+      }
+    ],
+    "grid_layout": "middle_expand"
+  },
+  "team": {
+    "title": "About Us",
+    "text": "<p>Nestled in the heart of the vibrant Hyde Square neighborhood of Jamaica Plain/Boston, Crown of Beauty has proudly served our community for the past four years, though our roots here run much deeper. With decades of connection to this area, we've created an inviting and welcoming space where everyone can feel at home.</p><p>As a full-service beauty salon and spa, we specialize in hair, nails, skincare, and waxing—offering a wide range of services to help you look and feel your best. Whether you're visiting us for a quick touch-up or an indulgent day of self-care, we're here to make you shine.</p>"
+  },
+  "socials": {
+    "instagram_url": null,
+    "facebook_url": null,
+    "twitter_url": null
+  },
+  "find_us": {
+    "title": "Call to schedule an appointment. Walk-ins are also accepted.",
+    "subtitle": null,
+    "google_maps": true
+  },
+  "booking_link": {
+    "url": "https://book.getpagoda.com/book?salonId=crown-of-beauty-uuid-12345"
+  }
+}

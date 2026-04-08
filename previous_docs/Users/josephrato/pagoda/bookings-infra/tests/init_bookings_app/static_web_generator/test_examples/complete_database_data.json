@@ -1,0 +1,119 @@
+{
+  "company_name": "Crown of Beauty Salon",
+  "salon_uuid": "e9774c5d-8e08-45bd-8170-e2b645a465a6",
+  "logo_data": {
+    "image_url": "https://example.com/logos/crown_of_beauty.png",
+    "logo_alt_text": "Crown of Beauty Salon Logo",
+    "logo_width": 200,
+    "logo_height": 100
+  },
+  "contact_details": {
+    "phone": "(555) 123-4567",
+    "email": "info@crownofbeauty.com",
+    "hours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 7:00 PM",
+      "friday": "9:00 AM - 7:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "address": "123 Main Street, Boston, MA 02101"
+  },
+  "location_data": {
+    "address": "123 Main Street, Boston, MA 02101",
+    "latitude": 42.3601,
+    "longitude": -71.0589,
+    "map_url": "https://maps.google.com/?q=Crown+of+Beauty+Salon",
+    "directions": "Located in the heart of downtown Boston, near the subway station",
+    "timezone": "America/New_York"
+  },
+  "services_data": {
+    "services": [
+      {
+        "id": 1,
+        "uuid": "service-uuid-1",
+        "name": "Hair Cut",
+        "description": "Professional haircut tailored to your style",
+        "service_type": "Hair",
+        "default_price": 50.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 2,
+        "uuid": "service-uuid-2",
+        "name": "Hair Color",
+        "description": "Expert hair coloring and highlights",
+        "service_type": "Hair",
+        "default_price": 120.0,
+        "default_is_variable_price": true,
+        "default_duration_mins": 120
+      },
+      {
+        "id": 3,
+        "uuid": "service-uuid-3",
+        "name": "Facial Treatment",
+        "description": "Rejuvenating facial treatment",
+        "service_type": "Facial",
+        "default_price": 80.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 90
+      },
+      {
+        "id": 4,
+        "uuid": "service-uuid-4",
+        "name": "Manicure",
+        "description": "Professional nail care and polish",
+        "service_type": "Nails",
+        "default_price": 35.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 45
+      }
+    ]
+  },
+  "staff_data": {
+    "staff_members": [
+      {
+        "id": 1,
+        "first_name": "Sarah",
+        "last_name": "Johnson",
+        "position": "Owner",
+        "title": "Master Stylist",
+        "bio": "Sarah has over 15 years of experience in hair styling and color",
+        "photo_url": "https://example.com/staff/sarah-johnson.jpg",
+        "email": "sarah@crownofbeauty.com",
+        "phone": "(555) 123-4568",
+        "specialties": ["Hair Styling", "Hair Color"]
+      },
+      {
+        "id": 2,
+        "first_name": "Michael",
+        "last_name": "Chen",
+        "position": "Employee",
+        "title": "Senior Stylist",
+        "bio": "Michael specializes in modern cuts and color techniques",
+        "photo_url": "https://example.com/staff/michael-chen.jpg",
+        "email": "michael@crownofbeauty.com",
+        "phone": "(555) 123-4569",
+        "specialties": ["Hair Styling"]
+      },
+      {
+        "id": 3,
+        "first_name": "Emily",
+        "last_name": "Rodriguez",
+        "position": "Employee",
+        "title": "Esthetician",
+        "bio": "Emily provides expert facial treatments and skincare",
+        "photo_url": "https://example.com/staff/emily-rodriguez.jpg",
+        "email": "emily@crownofbeauty.com",
+        "phone": "(555) 123-4570",
+        "specialties": ["Facial Treatments", "Skincare"]
+      }
+    ]
+  },
+  "website_url": "https://crownofbeauty.com",
+  "timezone": "America/New_York",
+  "google_analytics_tracking_id": "UA-123456789-1"
+}

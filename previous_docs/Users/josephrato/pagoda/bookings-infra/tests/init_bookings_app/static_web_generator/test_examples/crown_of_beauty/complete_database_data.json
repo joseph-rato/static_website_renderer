@@ -1,0 +1,947 @@
+{
+  "company_name": "Crown of Beauty",
+  "salon_uuid": "crown-of-beauty-uuid-12345",
+  "logo_data": {
+    "image_url": "https://framerusercontent.com/images/ek1YcPGAlXYFKTCXQf06QwahU.png",
+    "logo_alt_text": "Crown of Beauty Logo",
+    "logo_width": 200,
+    "logo_height": 100
+  },
+  "contact_details": {
+    "phone": "617-935-3974",
+    "email": "info@crownofbeauty.com",
+    "hours": {
+      "monday": "8:30 AM - 7:00 PM",
+      "tuesday": "8:30 AM - 7:00 PM",
+      "wednesday": "8:30 AM - 7:00 PM",
+      "thursday": "8:30 AM - 7:00 PM",
+      "friday": "8:30 AM - 7:00 PM",
+      "saturday": "8:30 AM - 7:00 PM",
+      "sunday": "11:00 AM - 5:00 PM"
+    },
+    "address": "345b Centre Street, Jamaica Plain, MA 02130"
+  },
+  "location_data": {
+    "address": "345b Centre Street, Jamaica Plain, MA 02130",
+    "latitude": 42.3126,
+    "longitude": -71.12,
+    "map_url": "https://maps.google.com/?q=345b+Centre+Street+Jamaica+Plain+MA+02130",
+    "directions": "Located in the heart of the vibrant Hyde Square neighborhood of Jamaica Plain/Boston",
+    "timezone": "America/New_York"
+  },
+  "services_data": {
+    "services": [
+      {
+        "id": 1,
+        "uuid": "service-spa-european-facial",
+        "name": "European Facial",
+        "description": "Classic facial, perfect for all skin types.",
+        "service_type": "Spa",
+        "default_price": 110.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 2,
+        "uuid": "service-spa-relaxing-back-facial",
+        "name": "Relaxing Back Facial",
+        "description": "Enjoy the benefits of a deep cleaning facial, but on your back!",
+        "service_type": "Spa",
+        "default_price": 110.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 3,
+        "uuid": "service-spa-puracne-treatment",
+        "name": "Puracne Oxygenating Treatment",
+        "description": "Perfect for oily, acne-prone skin. Clear & revitalize fatigued, dull skin",
+        "service_type": "Spa",
+        "default_price": 165.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 4,
+        "uuid": "service-spa-algo-mask",
+        "name": "Algo Mask Treatment",
+        "description": "Soothes and moisturizes all skin types. Great for special events.",
+        "service_type": "Spa",
+        "default_price": 155.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 5,
+        "uuid": "service-spa-anti-aging-botinol",
+        "name": "Anti-aging Botinol Treatment",
+        "description": "Clinically proven procedure combines five peptides and retinol in a relaxing treatment to instantly and visibly reduce expression lines and wrinkles.",
+        "service_type": "Spa",
+        "default_price": 195.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 90
+      },
+      {
+        "id": 6,
+        "uuid": "service-spa-diamond-signature",
+        "name": "Diamond Signature Treatment",
+        "description": "This luxurious treatment combines diamond powder, a peptide complex and snow algae with the clinically proven BioCellulose mask to reduce 5 signs of aging and achieve a divinely radiant complexion and visibly younger skin.",
+        "service_type": "Spa",
+        "default_price": 205.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 7,
+        "uuid": "service-spa-collagen-eye",
+        "name": "Sublime Collagen Eye Treatment",
+        "description": "Visibly reduce fine lines and wrinkles around the eyes and firm the skin.",
+        "service_type": "Spa",
+        "default_price": 75.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 30
+      },
+      {
+        "id": 8,
+        "uuid": "service-spa-teen-facial",
+        "name": "Teen Facial",
+        "description": "Deep cleaning facial, tailored for teen skin care needs. Available add-on: Celuma (+$40)",
+        "service_type": "Spa",
+        "default_price": 110.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 9,
+        "uuid": "service-spa-hydro-lifting",
+        "name": "Hydro-Lifting Treatment",
+        "description": "Hydrate, tighten & tone the skin. Skin is glowing & energized.",
+        "service_type": "Spa",
+        "default_price": 165.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 10,
+        "uuid": "service-spa-vitamin-c",
+        "name": "Sea Spa Vitamin C Treatment",
+        "description": "100% Vitamin C. Stimulates collagen and elasticity, boosts brightness.",
+        "service_type": "Spa",
+        "default_price": 155.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 11,
+        "uuid": "service-spa-restorative-collagen",
+        "name": "Restorative Collagen Treatment",
+        "description": "Outstanding results for hydration, cell regeneration & wrinkle smoothing.",
+        "service_type": "Spa",
+        "default_price": 185.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 90
+      },
+      {
+        "id": 12,
+        "uuid": "service-spa-dermaplaning",
+        "name": "Dermaplaning Facial",
+        "description": "Gently remove dead skin and peach fuzz on the face, leaving your skin instantly brighter and smooth. Perfect for events. Available add-on: Facials (+$60)",
+        "service_type": "Spa",
+        "default_price": 170.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 75
+      },
+      {
+        "id": 13,
+        "uuid": "service-spa-chemical-peels",
+        "name": "Chemical Peels",
+        "description": "Get rid of dry, dead skin with one of our gentle peels with no to little peeling - only glowing, fresh skin! GM Collin for $75 | Priori Power Peel for $150.",
+        "service_type": "Spa",
+        "default_price": 75.0,
+        "default_is_variable_price": true,
+        "default_duration_mins": 30
+      },
+      {
+        "id": 14,
+        "uuid": "service-spa-celluma-led",
+        "name": "Celluma LED Light Therapy",
+        "description": "Use red, blue or intra-red light to kill bacteria, heal and anti-age!",
+        "service_type": "Spa",
+        "default_price": 40.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 30
+      },
+      {
+        "id": 15,
+        "uuid": "service-spa-microneedling",
+        "name": "Microneedling",
+        "description": "Creates micro-injuries to improve the appearance of the skin's texture, jumpstart collagen production, break up acne scars and look more radiant and youthful.",
+        "service_type": "Spa",
+        "default_price": 75.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 16,
+        "uuid": "service-spa-rf-microneedling",
+        "name": "RF Microneedling",
+        "description": "Combines the science of microneedling & collagen induction with Radio Frequency to tighten skin and improve your skin's texture. We provide amazing results with no pain or downtime. TriPollar® RF Technology works in tandem with RF microneedling to treat facial wrinkles and whytids by heating up the dermis and creating new collage and elastin in the skin.",
+        "service_type": "Spa",
+        "default_price": 450.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 90
+      },
+      {
+        "id": 17,
+        "uuid": "service-spa-makeup",
+        "name": "Makeup",
+        "description": "Professional makeup application",
+        "service_type": "Spa",
+        "default_price": 80.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 18,
+        "uuid": "service-spa-eyelash-extension",
+        "name": "Eye Lashes Extension",
+        "description": "Professional eyelash extension service",
+        "service_type": "Spa",
+        "default_price": 55.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 90
+      },
+      {
+        "id": 19,
+        "uuid": "service-spa-highlight-contour",
+        "name": "Highlight & Contours",
+        "description": "Professional highlighting and contouring",
+        "service_type": "Spa",
+        "default_price": 20.0,
+        "default_is_variable_price": true,
+        "default_duration_mins": 30
+      },
+      {
+        "id": 20,
+        "uuid": "service-spa-body-makeup",
+        "name": "Body makeup (chest, arms, back)",
+        "description": "Professional body makeup application",
+        "service_type": "Spa",
+        "default_price": 25.0,
+        "default_is_variable_price": true,
+        "default_duration_mins": 45
+      },
+      {
+        "id": 21,
+        "uuid": "service-spa-false-lashes",
+        "name": "False Lashes",
+        "description": "Professional false lash application",
+        "service_type": "Spa",
+        "default_price": 15.0,
+        "default_is_variable_price": true,
+        "default_duration_mins": 30
+      },
+      {
+        "id": 22,
+        "uuid": "service-spa-brow-shaping",
+        "name": "Brow Shaping/Tinting",
+        "description": "Professional brow shaping and tinting",
+        "service_type": "Spa",
+        "default_price": 15.0,
+        "default_is_variable_price": true,
+        "default_duration_mins": 30
+      },
+      {
+        "id": 23,
+        "uuid": "service-spa-glitter-rhinestones",
+        "name": "Glitter/Rhinestones/Cut Crease",
+        "description": "Creative makeup with glitter, rhinestones, or cut crease techniques",
+        "service_type": "Spa",
+        "default_price": 10.0,
+        "default_is_variable_price": true,
+        "default_duration_mins": 45
+      },
+      {
+        "id": 24,
+        "uuid": "service-spa-face-paint",
+        "name": "Face Paint",
+        "description": "Professional face painting service",
+        "service_type": "Spa",
+        "default_price": 90.0,
+        "default_is_variable_price": true,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 25,
+        "uuid": "service-hair-womens-haircut-short",
+        "name": "Women's Haircut (Short Hair)",
+        "description": "Professional haircut for short hair styles",
+        "service_type": "Hair",
+        "default_price": 55.0,
+        "default_is_variable_price": true,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 26,
+        "uuid": "service-hair-mens-haircut",
+        "name": "Men's Haircut",
+        "description": "Professional men's haircut and styling",
+        "service_type": "Hair",
+        "default_price": 45.0,
+        "default_is_variable_price": true,
+        "default_duration_mins": 45
+      },
+      {
+        "id": 27,
+        "uuid": "service-hair-end-cut",
+        "name": "End Cut",
+        "description": "Professional end trimming service",
+        "service_type": "Hair",
+        "default_price": 60.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 30
+      },
+      {
+        "id": 28,
+        "uuid": "service-hair-wash-roller-blowdry",
+        "name": "Hair Wash, Roller & Blow-Dry",
+        "description": "Complete wash, roller set, and blow-dry styling",
+        "service_type": "Hair",
+        "default_price": 55.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 90
+      },
+      {
+        "id": 29,
+        "uuid": "service-hair-womens-haircut-long",
+        "name": "Women's Haircut (Long Hair)",
+        "description": "Professional haircut for long hair styles",
+        "service_type": "Hair",
+        "default_price": 65.0,
+        "default_is_variable_price": true,
+        "default_duration_mins": 75
+      },
+      {
+        "id": 30,
+        "uuid": "service-hair-mens-shampoo-blowout",
+        "name": "Men's Shampoo & Blowout",
+        "description": "Shampoo and blow-dry styling for men",
+        "service_type": "Hair",
+        "default_price": 35.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 30
+      },
+      {
+        "id": 31,
+        "uuid": "service-hair-wash-blowdry",
+        "name": "Hair Wash & Blow-Dry",
+        "description": "Professional wash and blow-dry styling",
+        "service_type": "Hair",
+        "default_price": 55.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 32,
+        "uuid": "service-hair-wash-blowdry-iron",
+        "name": "Hair Wash, Blow-Dry & Iron",
+        "description": "Complete wash, blow-dry, and flat iron styling",
+        "service_type": "Hair",
+        "default_price": 55.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 75
+      },
+      {
+        "id": 33,
+        "uuid": "service-hair-hair-color-short",
+        "name": "Hair Color (Short Hair)",
+        "description": "Expert hair coloring for short hair",
+        "service_type": "Hair",
+        "default_price": 70.0,
+        "default_is_variable_price": true,
+        "default_duration_mins": 120
+      },
+      {
+        "id": 34,
+        "uuid": "service-hair-partial-highlights-short",
+        "name": "Partial Highlights (Short Hair)",
+        "description": "Partial highlights for short hair",
+        "service_type": "Hair",
+        "default_price": 145.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 150
+      },
+      {
+        "id": 35,
+        "uuid": "service-hair-hair-color-long",
+        "name": "Hair Color (Long Hair)",
+        "description": "Expert hair coloring for long hair",
+        "service_type": "Hair",
+        "default_price": 95.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 150
+      },
+      {
+        "id": 36,
+        "uuid": "service-hair-full-highlights-long",
+        "name": "Full Highlights (Long Hair)",
+        "description": "Full highlights for long hair",
+        "service_type": "Hair",
+        "default_price": 250.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 180
+      },
+      {
+        "id": 37,
+        "uuid": "service-hair-ampolla",
+        "name": "Ampolla",
+        "description": "Hair treatment with ampolla",
+        "service_type": "Hair",
+        "default_price": 10.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 15
+      },
+      {
+        "id": 38,
+        "uuid": "service-hair-lactica",
+        "name": "Lactica",
+        "description": "Lactica hair treatment",
+        "service_type": "Hair",
+        "default_price": 90.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 39,
+        "uuid": "service-hair-kerablush",
+        "name": "Kerablush",
+        "description": "Kerablush hair treatment",
+        "service_type": "Hair",
+        "default_price": 160.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 90
+      },
+      {
+        "id": 40,
+        "uuid": "service-hair-scalp-treatment",
+        "name": "Scalp Treatment",
+        "description": "Professional scalp treatment",
+        "service_type": "Hair",
+        "default_price": 65.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 45
+      },
+      {
+        "id": 41,
+        "uuid": "service-hair-nano-plastia",
+        "name": "Nano Plastia",
+        "description": "Nano plastia hair treatment",
+        "service_type": "Hair",
+        "default_price": 90.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 42,
+        "uuid": "service-hair-celula-madre",
+        "name": "Celula Madre",
+        "description": "Celula madre hair treatment",
+        "service_type": "Hair",
+        "default_price": 60.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 45
+      },
+      {
+        "id": 43,
+        "uuid": "service-hair-fusion",
+        "name": "Fusion",
+        "description": "Fusion hair treatment",
+        "service_type": "Hair",
+        "default_price": 90.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 44,
+        "uuid": "service-hair-progresiva",
+        "name": "Progresiva",
+        "description": "Progresiva hair treatment",
+        "service_type": "Hair",
+        "default_price": 160.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 90
+      },
+      {
+        "id": 45,
+        "uuid": "service-hair-reconstructor-treatment",
+        "name": "Reconstructor Treatment",
+        "description": "Hair reconstruction treatment",
+        "service_type": "Hair",
+        "default_price": 65.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 45
+      },
+      {
+        "id": 46,
+        "uuid": "service-hair-deep-treatment",
+        "name": "Deep Treatment",
+        "description": "Deep conditioning hair treatment",
+        "service_type": "Hair",
+        "default_price": 50.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 30
+      },
+      {
+        "id": 47,
+        "uuid": "service-hair-cirugia-capilar",
+        "name": "Cirugia Capilar",
+        "description": "Cirugia capilar hair treatment",
+        "service_type": "Hair",
+        "default_price": 90.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 48,
+        "uuid": "service-hair-botox",
+        "name": "Botox",
+        "description": "Hair botox treatment",
+        "service_type": "Hair",
+        "default_price": 80.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 49,
+        "uuid": "service-hair-mens-braid",
+        "name": "Men's Braid",
+        "description": "Professional braiding for men",
+        "service_type": "Hair",
+        "default_price": 40.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 50,
+        "uuid": "service-hair-braiding-extension",
+        "name": "Braiding w/ Extension",
+        "description": "Braiding with hair extensions",
+        "service_type": "Hair",
+        "default_price": 130.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 120
+      },
+      {
+        "id": 51,
+        "uuid": "service-hair-womens-braid",
+        "name": "Women's Braid",
+        "description": "Professional braiding for women",
+        "service_type": "Hair",
+        "default_price": 60.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 90
+      },
+      {
+        "id": 52,
+        "uuid": "service-hair-extension",
+        "name": "Hair Extension",
+        "description": "Professional hair extension service",
+        "service_type": "Hair",
+        "default_price": 195.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 180
+      },
+      {
+        "id": 53,
+        "uuid": "service-hair-extension-crochet",
+        "name": "Hair Extension Crochet",
+        "description": "Hair extensions using crochet method",
+        "service_type": "Hair",
+        "default_price": 100.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 150
+      },
+      {
+        "id": 54,
+        "uuid": "service-nails-regular-manicure",
+        "name": "Regular or Russian Manicure",
+        "description": "Professional nail care and polish",
+        "service_type": "Nails",
+        "default_price": 35.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 45
+      },
+      {
+        "id": 55,
+        "uuid": "service-nails-gel-manicure",
+        "name": "Gel Manicure",
+        "description": "Long-lasting gel polish manicure",
+        "service_type": "Nails",
+        "default_price": 40.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 56,
+        "uuid": "service-nails-acrylic-pedicure",
+        "name": "Acrylic Pedicure (2 Nails)",
+        "description": "Acrylic pedicure for 2 nails",
+        "service_type": "Nails",
+        "default_price": 60.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 57,
+        "uuid": "service-nails-acrylics-refill",
+        "name": "Acrylics Refill",
+        "description": "Acrylic nail refill service",
+        "service_type": "Nails",
+        "default_price": 45.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 58,
+        "uuid": "service-nails-poly-gel",
+        "name": "Poly Gel",
+        "description": "Poly gel nail application",
+        "service_type": "Nails",
+        "default_price": 50.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 75
+      },
+      {
+        "id": 59,
+        "uuid": "service-nails-regular-pedicure",
+        "name": "Regular Pedicure",
+        "description": "Professional foot care and polish",
+        "service_type": "Nails",
+        "default_price": 50.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 60,
+        "uuid": "service-nails-gel-pedicure",
+        "name": "Gel Pedicure",
+        "description": "Long-lasting gel polish pedicure",
+        "service_type": "Nails",
+        "default_price": 55.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 75
+      },
+      {
+        "id": 61,
+        "uuid": "service-nails-acrylic-nails",
+        "name": "Acrylic Nails",
+        "description": "Full set of acrylic nails",
+        "service_type": "Nails",
+        "default_price": 60.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 90
+      },
+      {
+        "id": 62,
+        "uuid": "service-nails-acrylics-remover",
+        "name": "Acrylics Remover",
+        "description": "Professional acrylic nail removal",
+        "service_type": "Nails",
+        "default_price": 20.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 30
+      },
+      {
+        "id": 63,
+        "uuid": "service-nails-deep-powder-short",
+        "name": "Deep Powder (Short Nails)",
+        "description": "Deep powder dip for short nails",
+        "service_type": "Nails",
+        "default_price": 50.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 64,
+        "uuid": "service-nails-manicure-deep-powder",
+        "name": "Manicure w/ Deep Powder",
+        "description": "Manicure with deep powder enhancement",
+        "service_type": "Nails",
+        "default_price": 70.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 75
+      },
+      {
+        "id": 65,
+        "uuid": "service-nails-3d-flowers",
+        "name": "3D Flowers (2 Nails)",
+        "description": "3D flower nail art for 2 nails",
+        "service_type": "Nails",
+        "default_price": 15.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 30
+      },
+      {
+        "id": 66,
+        "uuid": "service-nails-strikers",
+        "name": "Strikers",
+        "description": "Striker nail art design",
+        "service_type": "Nails",
+        "default_price": 5.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 15
+      },
+      {
+        "id": 67,
+        "uuid": "service-nails-diamonds",
+        "name": "Diamonds",
+        "description": "Diamond nail art embellishment",
+        "service_type": "Nails",
+        "default_price": 5.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 15
+      },
+      {
+        "id": 68,
+        "uuid": "service-nails-french",
+        "name": "French",
+        "description": "Classic French manicure style",
+        "service_type": "Nails",
+        "default_price": 15.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 30
+      },
+      {
+        "id": 69,
+        "uuid": "service-waxing-eyebrow",
+        "name": "Eyebrow",
+        "description": "Professional eyebrow waxing",
+        "service_type": "Waxing",
+        "default_price": 15.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 15
+      },
+      {
+        "id": 70,
+        "uuid": "service-waxing-eyebrow-lip",
+        "name": "Eyebrow & Lip",
+        "description": "Eyebrow and lip waxing service",
+        "service_type": "Waxing",
+        "default_price": 32.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 20
+      },
+      {
+        "id": 71,
+        "uuid": "service-waxing-lip-chin",
+        "name": "Lip & Chin",
+        "description": "Lip and chin waxing service",
+        "service_type": "Waxing",
+        "default_price": 33.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 20
+      },
+      {
+        "id": 72,
+        "uuid": "service-waxing-lip",
+        "name": "Lip",
+        "description": "Professional lip waxing",
+        "service_type": "Waxing",
+        "default_price": 15.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 10
+      },
+      {
+        "id": 73,
+        "uuid": "service-waxing-chin",
+        "name": "Chin",
+        "description": "Professional chin waxing",
+        "service_type": "Waxing",
+        "default_price": 16.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 10
+      },
+      {
+        "id": 74,
+        "uuid": "service-waxing-side-board",
+        "name": "Side Board",
+        "description": "Side board waxing service",
+        "service_type": "Waxing",
+        "default_price": 18.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 15
+      },
+      {
+        "id": 75,
+        "uuid": "service-waxing-full-face",
+        "name": "Full Face",
+        "description": "Complete facial waxing service",
+        "service_type": "Waxing",
+        "default_price": 61.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 45
+      },
+      {
+        "id": 76,
+        "uuid": "service-waxing-neck",
+        "name": "Neck",
+        "description": "Professional neck waxing",
+        "service_type": "Waxing",
+        "default_price": 18.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 15
+      },
+      {
+        "id": 77,
+        "uuid": "service-waxing-under-arm",
+        "name": "Under Arm",
+        "description": "Underarm waxing service",
+        "service_type": "Waxing",
+        "default_price": 20.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 15
+      },
+      {
+        "id": 78,
+        "uuid": "service-waxing-full-arm",
+        "name": "Full Arm",
+        "description": "Complete arm waxing service",
+        "service_type": "Waxing",
+        "default_price": 50.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 45
+      },
+      {
+        "id": 79,
+        "uuid": "service-waxing-stomach",
+        "name": "Stomach",
+        "description": "Stomach waxing service",
+        "service_type": "Waxing",
+        "default_price": 25.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 20
+      },
+      {
+        "id": 80,
+        "uuid": "service-waxing-upper-leg",
+        "name": "Upper Leg",
+        "description": "Upper leg waxing service",
+        "service_type": "Waxing",
+        "default_price": 60.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 45
+      },
+      {
+        "id": 81,
+        "uuid": "service-waxing-brazilian-mini",
+        "name": "Brazilian (Mini)",
+        "description": "Mini Brazilian waxing service",
+        "service_type": "Waxing",
+        "default_price": 45.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 25
+      },
+      {
+        "id": 82,
+        "uuid": "service-waxing-chest",
+        "name": "Chest",
+        "description": "Chest waxing service",
+        "service_type": "Waxing",
+        "default_price": 65.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 45
+      },
+      {
+        "id": 83,
+        "uuid": "service-waxing-lower-arm",
+        "name": "Lower Arm",
+        "description": "Lower arm waxing service",
+        "service_type": "Waxing",
+        "default_price": 35.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 30
+      },
+      {
+        "id": 84,
+        "uuid": "service-waxing-back",
+        "name": "Back",
+        "description": "Back waxing service",
+        "service_type": "Waxing",
+        "default_price": 60.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 45
+      },
+      {
+        "id": 85,
+        "uuid": "service-waxing-full-leg",
+        "name": "Full Leg",
+        "description": "Complete leg waxing service",
+        "service_type": "Waxing",
+        "default_price": 85.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 60
+      },
+      {
+        "id": 86,
+        "uuid": "service-waxing-lower-leg",
+        "name": "Lower Leg",
+        "description": "Lower leg waxing service",
+        "service_type": "Waxing",
+        "default_price": 40.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 30
+      },
+      {
+        "id": 87,
+        "uuid": "service-waxing-brazilian-full",
+        "name": "Brazilian (Full)",
+        "description": "Complete Brazilian waxing service",
+        "service_type": "Waxing",
+        "default_price": 60.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 30
+      },
+      {
+        "id": 88,
+        "uuid": "service-waxing-bikini-area",
+        "name": "Bikini Area",
+        "description": "Bikini area waxing service",
+        "service_type": "Waxing",
+        "default_price": 40.0,
+        "default_is_variable_price": false,
+        "default_duration_mins": 25
+      }
+    ]
+  },
+  "staff_data": {
+    "staff_members": [
+      {
+        "id": 1,
+        "first_name": "Lidia",
+        "last_name": "De Los Santos",
+        "position": "Owner",
+        "title": "Owner & Master Esthetician",
+        "bio": "Lidia brings decades of experience and connection to the Hyde Square neighborhood, creating an inviting and welcoming space where everyone can feel at home.",
+        "photo_url": "https://framerusercontent.com/images/Wuw0UiCpMB7LlLx2MLqj06oOFzU.png",
+        "email": "lidia@crownofbeauty.com",
+        "phone": "617-935-3974",
+        "specialties": ["Skincare", "Facial Treatments", "Esthetics"]
+      },
+      {
+        "id": 2,
+        "first_name": "Alexandra",
+        "last_name": "Martinez",
+        "position": "Employee",
+        "title": "Nail Specialist",
+        "bio": "Alexandra specializes in nail care and provides exceptional service with great care and attention to detail.",
+        "photo_url": "https://framerusercontent.com/images/RlaU6Fv0NZ9YGZN17OaMiNyODo.png",
+        "email": "alexandra@crownofbeauty.com",
+        "phone": "617-935-3975",
+        "specialties": ["Nail Care", "Manicures", "Pedicures"]
+      }
+    ]
+  },
+  "website_url": "https://crownofbeauty.com",
+  "timezone": "America/New_York",
+  "google_analytics_tracking_id": null
+}
