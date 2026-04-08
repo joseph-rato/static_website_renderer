@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0.0",
+  "metadata": {
+    "title": "My Salon"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#FF0000",
+      "secondary": "#0000FF"
+    },
+    "fonts": {
+      "primary": "Times New Roman",
+      "secondary": "Arial"
+    }
+  },
+  "body": [
+    {
+      "type": "navigation",
+      "id": "nav",
+      "props": {
+        "bookingUrl": "https://book.getpagoda.com/book?salonId=example",
+        "navLinks": [
+          { "label": "Home", "anchor": "#home" },
+          { "label": "Services", "anchor": "#services" }
+        ]
+      }
+    },
+    {
+      "type": "hero",
+      "id": "home",
+      "props": {
+        "header": "Welcome to My Salon"
+      }
+    },
+    {
+      "type": "services-menu",
+      "id": "services",
+      "props": {
+        "title": "Our Services",
+        "serviceGroups": []
+      }
+    },
+    {
+      "type": "find-us",
+      "id": "find-us",
+      "props": {
+        "title": "Find Us",
+        "showGoogleMaps": false
+      }
+    },
+    {
+      "type": "footer",
+      "id": "footer",
+      "props": {}
+    }
+  ]
+}

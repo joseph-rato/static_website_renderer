@@ -1,0 +1,248 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pagoda.dev/schemas/page-document.json",
+  "title": "PageDocument",
+  "description": "Root schema for a Pagoda static website page. Contains everything needed to render a single page: metadata, design tokens, optional reusable symbols, and the content tree.",
+  "type": "object",
+  "required": ["schemaVersion", "metadata", "theme", "body"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "description": "Schema version (semver). Must match the renderer version to produce valid output."
+    },
+    "metadata": {
+      "$ref": "#/$defs/PageMetadata"
+    },
+    "theme": {
+      "$ref": "#/$defs/ThemeTokens"
+    },
+    "symbols": {
+      "type": "object",
+      "description": "Reusable component definitions (symbols). Keys are symbol IDs, values are SRNode trees.",
+      "additionalProperties": {
+        "$ref": "#/$defs/SRNode"
+      }
+    },
+    "body": {
+      "type": "array",
+      "description": "The page content tree — an ordered array of top-level section nodes.",
+      "items": {
+        "$ref": "#/$defs/SRNode"
+      },
+      "minItems": 1
+    }
+  },
+  "$defs": {
+    "StyleObject": {
+      "type": "object",
+      "description": "CSS-in-JS style object. camelCase property names with string or number values.",
+      "additionalProperties": {
+        "type": ["string", "number"]
+      }
+    },
+    "ResponsiveStyles": {
+      "type": "object",
+      "description": "Responsive style overrides keyed by breakpoint. Each entry is a StyleObject merged on top of base styles at the matching viewport width.",
+      "properties": {
+        "mobile": {
+          "$ref": "#/$defs/StyleObject"
+        },
+        "tablet": {
+          "$ref": "#/$defs/StyleObject"
+        },
+        "desktop": {
+          "$ref": "#/$defs/StyleObject"
+        }
+      },
+      "additionalProperties": false
+    },
+    "SRNode": {
+      "type": "object",
+      "description": "Static Renderer Node — the fundamental unit of the page schema. Every element in the page tree is an SRNode.",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Component type discriminator. Maps to a component in the renderer's registry."
+        },
+        "id": {
+          "type": "string",
+          "description": "Stable unique identifier for this node. Used for React keys, anchors, and testing."
+        },
+        "props": {
+          "type": "object",
+          "description": "Props passed to the component. Shape depends on the node type.",
+          "additionalProperties": true
+        },
+        "styles": {
+          "$ref": "#/$defs/StyleObject"
+        },
+        "responsiveStyles": {
+          "$ref": "#/$defs/ResponsiveStyles"
+        },
+        "className": {
+          "type": "string",
+          "description": "CSS class names to apply (for utility classes or theme-level styles)."
+        },
+        "children": {
+          "type": "array",
+          "description": "Child nodes. Leaf nodes (text, image, icon) typically have no children.",
+          "items": {
+            "$ref": "#/$defs/SRNode"
+          }
+        },
+        "visible": {
+          "type": "boolean",
+          "description": "Visibility flag. When false the node and its subtree are not rendered.",
+          "default": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "OpenGraphMetadata": {
+      "type": "object",
+      "description": "OpenGraph metadata for social sharing.",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "description": "OG type. Default: \"website\"."
+        }
+      },
+      "additionalProperties": false
+    },
+    "TwitterMetadata": {
+      "type": "object",
+      "description": "Twitter Card metadata.",
+      "properties": {
+        "card": {
+          "type": "string",
+          "description": "Twitter card type. Default: \"summary_large_image\"."
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "PageMetadata": {
+      "type": "object",
+      "description": "Page-level metadata for SEO, analytics, and font loading.",
+      "required": ["title"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Page <title> tag content."
+        },
+        "description": {
+          "type": "string",
+          "description": "Meta description for SEO."
+        },
+        "url": {
+          "type": "string",
+          "description": "Canonical URL of the page."
+        },
+        "og": {
+          "$ref": "#/$defs/OpenGraphMetadata"
+        },
+        "twitter": {
+          "$ref": "#/$defs/TwitterMetadata"
+        },
+        "favicon": {
+          "type": "string",
+          "description": "Favicon URL (also used as apple-touch-icon)."
+        },
+        "fonts": {
+          "type": "array",
+          "description": "Google Font family names to load via <link> tags.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "analyticsId": {
+          "type": "string",
+          "description": "Google Analytics measurement ID (e.g. \"G-XXXXXXXXXX\")."
+        }
+      },
+      "additionalProperties": false
+    },
+    "ThemeTokens": {
+      "type": "object",
+      "description": "Design tokens applied as CSS custom properties across the page.",
+      "required": ["colors", "fonts"],
+      "properties": {
+        "colors": {
+          "type": "object",
+          "description": "Color tokens for the page theme.",
+          "required": ["primary", "secondary"],
+          "properties": {
+            "primary": {
+              "type": "string",
+              "description": "Primary brand color (hex)."
+            },
+            "secondary": {
+              "type": "string",
+              "description": "Secondary brand color (hex)."
+            },
+            "primaryText": {
+              "type": "string",
+              "description": "Text color for primary backgrounds."
+            },
+            "secondaryText": {
+              "type": "string",
+              "description": "Text color for secondary backgrounds."
+            },
+            "background": {
+              "type": "string",
+              "description": "Page background color."
+            },
+            "surface": {
+              "type": "string",
+              "description": "Surface/card background color."
+            }
+          },
+          "additionalProperties": false
+        },
+        "fonts": {
+          "type": "object",
+          "description": "Font family tokens.",
+          "required": ["primary", "secondary"],
+          "properties": {
+            "primary": {
+              "type": "string",
+              "description": "Primary font family (headings, hero)."
+            },
+            "secondary": {
+              "type": "string",
+              "description": "Secondary font family (body text, UI)."
+            }
+          },
+          "additionalProperties": false
+        },
+        "custom": {
+          "type": "object",
+          "description": "Extensible token map for future design tokens (e.g. border-radius, spacing-unit).",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
