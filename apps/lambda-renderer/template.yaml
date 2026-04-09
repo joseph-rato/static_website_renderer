@@ -1,0 +1,38 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  Pagoda static website renderer Lambda.
+  Accepts a PageDocument JSON and returns production-ready static HTML.
+
+Globals:
+  Function:
+    Timeout: 30
+    Runtime: nodejs20.x
+    MemorySize: 512
+    Architectures:
+      - arm64
+
+Resources:
+  RendererFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: handler.handler
+      CodeUri: bundle/
+      Description: Renders PageDocument JSON to static HTML via React SSR
+      Environment:
+        Variables:
+          NODE_ENV: production
+      Events:
+        RenderAPI:
+          Type: Api
+          Properties:
+            Path: /render
+            Method: post
+
+Outputs:
+  RendererFunctionArn:
+    Description: ARN of the renderer Lambda function
+    Value: !GetAtt RendererFunction.Arn
+  RenderApiUrl:
+    Description: API Gateway endpoint for the render function
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/render"

@@ -1,0 +1,26 @@
+{
+  "name": "@pagoda/lambda-renderer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AWS Lambda handler that renders PageDocument JSON to static HTML",
+  "main": "./dist/handler.js",
+  "types": "./dist/handler.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "bundle": "node esbuild.config.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist bundle *.tsbuildinfo"
+  },
+  "dependencies": {
+    "@pagoda/schema": "workspace:*",
+    "@pagoda/renderer": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.1.0"
+  }
+}
